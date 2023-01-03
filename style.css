@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root{
+    --primary-color:#84cc16;
+    --secondary-color:#fdba74;
+    --off-white:#cbd5e1;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.main-div{
+    padding:2rem;
+}
+
+.list-un-dotted{
+    list-style: none;
+}
+.list-inline{
+    display: inline;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation bar */
+.navbar{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    
+}
+.logo-image{
+    max-width: 70px;
+    padding: 0.5rem;
+}
+.site-name{
+    font-weight:bolder
+}
+.navbar .list-un-dotted{
+    list-style: none;
+    padding:1rem 1rem;
+    float:right;
+}
+.navbar .list-inline{
+    display: inline;
+}
+.navbar .links{
+    text-decoration: none;
+    color: black;
+    padding:1rem;
+}
+
+/* Scoreboard */
+.div-scoreboard{
+    background-color: #84cc16;
+    display: inline;
+    padding: 1rem 1rem;
+}
+.scoreboard-section{
+    background-color: var(--off-white);
+    border-radius: 0.5rem;
+    width: 300px;
+    height: 250px;
+    padding: 0.5rem 0.5rem;
+}
+.list-scoreboard{
+padding:1rem;
+justify-content: space-between;
+}
