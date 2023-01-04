@@ -3,7 +3,26 @@
     --primary-color:#84cc16;
     --secondary-color:#fdba74;
     --off-white:#cbd5e1;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
+*{
+    text-decoration: none;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background:#eee;
+    box-shadow: var(--box-shadow); 
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -23,11 +42,11 @@ body{
 }
 
 /* Navigation bar */
-.navbar{
+/* .navbar{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     
-}
+} */
 .logo-image{
     max-width: 70px;
     padding: 0.5rem;
