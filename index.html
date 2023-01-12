@@ -1,36 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+
     <title>Cricket Score</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- header -->
+
     <header class="header">
       <a href="#" class="logo"><i class="fa-brands fa-hornbill"></i>CRICFIZZ</a>
 
       <nav class="navbar">
         <a href="#home">Home</a>
-        <a href="#schedule">Schedule</a>
+        <a href="#scoreboard">Scoreboard</a>
         <a href="#news">News</a>
         <a href="#blogs">Blogs</a>
       </nav>
-      
+
       <div class="icons">
         <div class="fas fa-search" id="search-btn"></div>
         <div class="fas fa-user" id="login-btn"></div>
       </div>
 
       <form action="#" class="search-form">
-        <input type="text" id="search-box" placeholder="search here...">
+        <input type="text" id="search-box" placeholder="search here..." />
         <label for="search-box" class="fas fa-search"></label>
       </form>
-    
-</body>
-<script src="script.js"></script>
+    </header>
+
+    <!-- scoreboard -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide box">
+            <h3 class="heading">Sri-lanka tour of India</h3>
+            <div class="team">
+              <p class="team-name">India</p>
+              <p class="score">350-5 (50)</p>
+            </div>
+
+            <div class="team">
+              <p class="team-name">Sri-lanka</p>
+              <p class="score">280-9 (50)</p>
+            </div>
+            <h4 class="result">India won by 70 runs</h4>
+          </div>
+
+          <div class="swiper-slide box">
+            <h3 class="heading">Sri-lanka tour of India</h3>
+            <div class="team">
+              <p class="team-name">India</p>
+              <p class="score">350-5 (50)</p>
+            </div>
+
+            <div class="team">
+              <p class="team-name">Sri-lanka</p>
+              <p class="score">280-9 (50)</p>
+            </div>
+            <h4 class="result">India won by 70 runs</h4>
+          </div>
+
+          <div class="swiper-slide box">
+            <h3 class="heading">Sri-lanka tour of India</h3>
+            <div class="team">
+              <p class="team-name">India</p>
+              <p class="score">350-5 (50)</p>
+            </div>
+
+            <div class="team">
+              <p class="team-name">Sri-lanka</p>
+              <p class="score">280-9 (50)</p>
+            </div>
+            <h4 class="result">India won by 70 runs</h4>
+          </div>
+
+
+          <div class="swiper-slide box">
+            <h3 class="heading">Sri-lanka tour of India</h3>
+            <div class="team">
+              <p class="team-name">India</p>
+              <p class="score">350-5 (50)</p>
+            </div>
+
+            <div class="team">
+              <p class="team-name">Sri-lanka</p>
+              <p class="score">280-9 (50)</p>
+            </div>
+            <h4 class="result">India won by 70 runs</h4>
+          </div>
+
+          <div class="swiper-slide box">
+            <h3 class="heading">Sri-lanka tour of India</h3>
+            <div class="team">
+              <p class="team-name">India</p>
+              <p class="score">350-5 (50)</p>
+            </div>
+
+            <div class="team">
+              <p class="team-name">Sri-lanka</p>
+              <p class="score">280-9 (50)</p>
+            </div>
+            <h4 class="result">India won by 70 runs</h4>
+          </div>
+
+          <div class="swiper-slide box">
+            <h3 class="heading">Sri-lanka tour of India</h3>
+            <div class="team">
+              <p class="team-name">India</p>
+              <p class="score">350-5 (50)</p>
+            </div>
+
+            <div class="team">
+              <p class="team-name">Sri-lanka</p>
+              <p class="score">280-9 (50)</p>
+            </div>
+            <h4 class="result">India won by 70 runs</h4>
+          </div>
+
+          <div class="swiper-slide box">
+            <h3 class="heading">Sri-lanka tour of India</h3>
+            <div class="team">
+              <p class="team-name">India</p>
+              <p class="score">350-5 (50)</p>
+            </div>
+
+            <div class="team">
+              <p class="team-name">Sri-lanka</p>
+              <p class="score">280-9 (50)</p>
+            </div>
+            <h4 class="result">India won by 70 runs</h4>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      
+    </section>
+
+
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
 </html>

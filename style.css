@@ -2,10 +2,12 @@
 
 :root {
     --primary-color: #ea580c;
-    --secondary-color: #fdba74;
-    --off-white: #cbd5e1;
     --black:#130f40;
-    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black);
 }
 
 * {
@@ -16,6 +18,7 @@
     outline: none;
     border: none;
     text-decoration: none;
+    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -119,3 +122,50 @@ body {
 .header .search-form label:hover{
     color: var(--primary-color);
 }
+
+.home{
+    padding-top:12rem;
+    padding-bottom: 10rem;
+}
+
+.home .home-slider{
+    padding: 1rem;
+}
+
+.home .home-slider .box{
+    max-width:30rem;
+    max-height:80rem;
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding:3rem 2rem;
+    box-shadow: var(--box-shadow);
+    outline: var(--outline);
+    outline-offset: -1rem;
+}
+
+.home .home-slider .box:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.home .home-slider .box .team{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem 0;
+
+}
+
+.home .home-slider .box h3{
+    font-size: 1.5rem;
+}
+.home .home-slider .box h4{
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+}
+
+.home .home-slider .box .team p{
+    font-size: 1.5rem;
+}
+
+
